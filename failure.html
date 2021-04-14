@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📧 Newsletter Fail</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container" style="text-align: center;">
+          <h1 class="display-4">Whoops! </h1>
+          <lord-icon
+    src="https://cdn.lordicon.com/hrqwmuhr.json"
+    trigger="loop"
+    colors="primary:#6A82FB,secondary:#FC5C7D"
+    style="width:250px;height:250px">
+</lord-icon>
+          <p class="lead">Something went Wrong, Try again later or contact the developer!</p>
+          <form action="/failure" method="POST">
+            <button class="btn btn-lg btn-danger" type="submit">Try Again</button>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
